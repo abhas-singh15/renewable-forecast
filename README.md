@@ -134,24 +134,19 @@ This study demonstrates that nonlinear neural architectures outperform classical
 
 # Future work may explore:
 
-LSTM / GRU architectures
+- LSTM / GRU architectures
 
-Multi-horizon forecasting
+- Multi-horizon forecasting
 
-Hyperparameter optimization
+- Hyperparameter optimization
 
-Integration of forecasted weather inputs
+- Integration of forecasted weather inputs
 
 # Technologies Used
 
-Python
-
-pandas
-
-NumPy
-
-scikit-learn
-
-statsmodels
-
-matplotlib
+- Python
+- pandas
+- NumPy
+- scikit-learn
+- statsmodels
+- matplotlib
