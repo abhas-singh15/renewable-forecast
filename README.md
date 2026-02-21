@@ -97,13 +97,13 @@ Captures nonlinear temporal dependencies without explicit recurrence.
 
 
 # Results
-| Model	| MAE	| RMSE|
-|---|---|
-| Persistence |	1067 |	1902 |
-| SARIMA | 1555 |	2892 |
-| Random Forest |	1168|	2214 |
-| MLP Neural Network |	887 |	1419 |
 
+| Model                | MAE  | RMSE |
+|----------------------|------|------|
+| Persistence          | 1067 | 1902 |
+| SARIMA               | 1555 | 2892 |
+| Random Forest        | 1168 | 2214 |
+| MLP Neural Network   |  887 | 1419 |
 # Forecast Comparison
 
 ## 7-Day Forecast
