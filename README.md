@@ -68,12 +68,7 @@ Configuration:
 
 General formulation:
 
-$$
-\Phi(B^s)\,\phi(B)\,(1 - B)^d\,(1 - B^s)^D \, y_t
-=
-\Theta(B^s)\,\theta(B)\,\varepsilon_t
-$$​
-
+$\Phi(B^s)\phi(B)(1-B)^d(1-B^s)^D y_t = \Theta(B^s)\theta(B)\varepsilon_t$
 
 Models linear autoregressive structure with daily seasonality (24-hour cycle).
 
