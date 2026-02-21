@@ -95,6 +95,12 @@ Neural mapping:
 
 Captures nonlinear temporal dependencies without explicit recurrence.
 
+
+| Header 1 | Header 2 |
+|---|---|
+| Row 1 Col 1 | Row 1 Col 2 |
+
+
 # Results
 |Model	|MAE	|RMSE|
 |---|---|
