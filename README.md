@@ -45,6 +45,8 @@ Training window: Last 60 days (hourly data)
 
 Forecast horizon: 7 days (168 hours)
 
+A rolling-window evaluation framework was used to simulate realistic operational forecasting conditions.
+
 # Evaluation metrics:
 
 Mean Absolute Error (MAE)
@@ -56,7 +58,9 @@ Root Mean Squared Error (RMSE)
 
 Forecast equation:
 
-𝑦^𝑡=𝑦𝑡−1
+$$
+\hat{y}_t = y_{t-1}
+$$
 
 Captures short-term autocorrelation and serves as a strong benchmark.
 
@@ -105,6 +109,9 @@ Captures nonlinear temporal dependencies without explicit recurrence.
 | SARIMA               | 1555 | 2892 |
 | Random Forest        | 1168 | 2214 |
 | MLP Neural Network   |  887 | 1419 |
+
+The MLP model achieves the lowest MAE and RMSE, indicating superior nonlinear temporal modeling capability compared to classical statistical approaches.
+
 # Forecast Comparison
 
 ## 7-Day Forecast
@@ -135,13 +142,11 @@ This study demonstrates that nonlinear neural architectures outperform classical
 
 # Future work may explore:
 
-- LSTM / GRU architectures
-
-- Multi-horizon forecasting
-
-- Hyperparameter optimization
-
-- Integration of forecasted weather inputs
+Future work may explore:
+- Recurrent architectures (LSTM / GRU)
+- Multi-horizon direct forecasting
+- Hyperparameter tuning
+- Integration of forecasted meteorological inputs
 
 # Technologies Used
 
