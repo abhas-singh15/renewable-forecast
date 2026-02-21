@@ -96,18 +96,13 @@ Neural mapping:
 Captures nonlinear temporal dependencies without explicit recurrence.
 
 
-| Header 1 | Header 2 |
-|---|---|
-| Row 1 Col 1 | Row 1 Col 2 |
-
-
 # Results
-|Model	|MAE	|RMSE|
+| Model	| MAE	| RMSE|
 |---|---|
-|Persistence|	1067|	1902
-|SARIMA|	1555|	2892
-|Random Forest|	1168|	2214
-|MLP Neural Network|	887|	1419
+| Persistence |	1067 |	1902 |
+| SARIMA | 1555 |	2892 |
+| Random Forest |	1168|	2214 |
+| MLP Neural Network |	887 |	1419 |
 
 # Forecast Comparison
 
