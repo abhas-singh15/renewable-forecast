@@ -1,5 +1,5 @@
 # Short-Term Solar Energy Forecasting Using Statistical and Machine Learning Models
-#Overview
+## Overview
 
 This project investigates short-term solar energy forecasting using both classical statistical methods and modern machine learning models. The objective is to evaluate model performance under nonlinear weather-driven variability and compare forecasting accuracy over a realistic operational horizon.
 
@@ -96,11 +96,12 @@ Neural mapping:
 Captures nonlinear temporal dependencies without explicit recurrence.
 
 # Results
-Model	MAE	RMSE
-Persistence	1067	1902
-SARIMA	1555	2892
-Random Forest	1168	2214
-MLP Neural Network	887	1419
+|Model	|MAE	|RMSE|
+|---|---|
+|Persistence|	1067|	1902
+|SARIMA|	1555|	2892
+|Random Forest|	1168|	2214
+|MLP Neural Network|	887|	1419
 
 # Forecast Comparison
 
