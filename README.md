@@ -68,7 +68,11 @@ Configuration:
 
 General formulation:
 
-Φ(𝐵𝑠)𝜙(𝐵)(1−𝐵)𝑑(1−𝐵𝑠)𝐷𝑦𝑡=Θ(𝐵𝑠)𝜃(𝐵)𝜀𝑡ΦBs)()1B(1−Bs)Dy=Θ(Bs)θ(B)εt​
+$$
+\Phi(B^s)\,\phi(B)\,(1 - B)^d\,(1 - B^s)^D \, y_t
+=
+\Theta(B^s)\,\theta(B)\,\varepsilon_t
+$$​
 
 
 Models linear autoregressive structure with daily seasonality (24-hour cycle).
@@ -91,7 +95,9 @@ Input: 24-hour rolling window
 
 Neural mapping:
 
-𝑦^=𝑓(𝑊2𝜎(𝑊1𝑋+𝑏1)+𝑏2)y^=f(W2σ(W1X+b1)+b2)
+$$
+\hat{y} = f\left(W_2\,\sigma(W_1 X + b_1) + b_2\right)
+$$
 
 Captures nonlinear temporal dependencies without explicit recurrence.
 
